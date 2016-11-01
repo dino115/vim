@@ -17,4 +17,6 @@ let g:solarized_termcolors=256
 colorscheme solarized
 
 map <C-n> :NERDTreeToggle<CR>
+noremap <C-left> :bprev<CR> 
+noremap <C-right> :bnext<CR> 
 
